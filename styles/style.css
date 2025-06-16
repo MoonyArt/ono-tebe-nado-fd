@@ -128,12 +128,62 @@
     margin: 0 24px 120px;
 }
 
-.lots__list {
+.section-heading {
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lots__heading {
+    margin: 0 0 27px 40px;
+}
+
+.lots__card-list {
+    padding-bottom: 30px;
     list-style: none;
     color: #FFFFFF;
     font-size: 20px;
     line-height: 120%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.lots__card-list-item {
+    /* position: relative; */
+    width: 334px;
+    min-height: 596px;
+    flex-grow: 1;
+}
+
+.card-link {
+    height: 100%;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    padding: 48px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__title {
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.card__info {
+    position: relative;
 }
 
 .card-type-film {
@@ -158,6 +208,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.lots__look-more-link {
+    padding-left: 40px;
+    text-transform: lowercase;
+    text-underline-offset: 4px;
 }
 
 /* Стили для секции об аукционе*/
