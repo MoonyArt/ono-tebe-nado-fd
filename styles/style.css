@@ -3,7 +3,7 @@
 .header {
     padding: 92px 50px 96px;
     font-size: 18px;
-    line-height: 100%;
+    line-height: 1;
     font-weight: 400;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -37,13 +37,13 @@
 }
 
 .address {
-    line-height: 24.3px;
+    line-height: 1.35;
     font-style: normal;
-    padding-right: 36px;
 }
 
 .header__address {
     max-width: 240px;
+    padding-right: 36px;
     justify-self: end;
 }
 
@@ -60,7 +60,7 @@
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 22px;
-    line-height: 28px;
+    line-height: 1.27;
     background-color: #000000;
     background-image: url("../images/cover.jpg");
     background-size: cover;
@@ -135,7 +135,7 @@
 
 .section-heading {
     font-size: 40px;
-    line-height: 100%;
+    line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -149,7 +149,7 @@
     list-style: none;
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -180,7 +180,7 @@
     position: relative;
     padding-bottom: 30px;
     font-size: 22px;
-    line-height: 120%;
+    line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
@@ -256,7 +256,7 @@
 .about__title {
     grid-column: 2/3;
     align-self: center;
-    padding-top: 7px;
+    padding-top: 8px;
 }
 
 .about__wrapper {
@@ -272,7 +272,7 @@
 .footer {
     padding: 0 50px 82px;
     font-size: 18px;
-    line-height: 100%;
+    line-height: 1;
     font-weight: 400;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -283,7 +283,7 @@
 }
 
 .footer__menu {
-    padding: 0 10px;
+    padding: 3px 20px 0;
     text-align: center;
     text-transform: lowercase;
 }
@@ -295,6 +295,8 @@
 
 .footer__menu-link {
     white-space: nowrap;
+    line-height: 1.1;
+    text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
