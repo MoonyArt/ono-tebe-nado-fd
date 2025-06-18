@@ -32,13 +32,14 @@
 
 .header__logo {
     display: block;
-    width: 148px;
+    width: 138px;
     height: 105px;
 }
 
 .address {
     line-height: 24.3px;
     font-style: normal;
+    padding-right: 36px;
 }
 
 .header__address {
@@ -274,6 +275,7 @@
 }
 
 .footer__menu {
+    padding: 0 10px;
     text-align: center;
     text-transform: lowercase;
 }
@@ -294,6 +296,7 @@
 .footer__social-list {
     justify-self: end;
     display: flex;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
