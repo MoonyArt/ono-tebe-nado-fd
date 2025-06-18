@@ -79,7 +79,7 @@
     position: relative;
     margin-bottom: 106px;
     font-size: 100px;
-    line-height: 115px;
+    line-height: 1.15;
     font-weight: 700;
 }
 
@@ -90,10 +90,14 @@
 
 .aligned-text_center {
     text-align: center;
+    padding-top: 20px;
+    padding-left: 28px;
 }
 
 .aligned-text_right {
     text-align: right;
+    padding-top: 20px;
+    padding-left: 614px;
 }
 
 .cover__description {
@@ -105,12 +109,12 @@
 }
 
 .cover__description-text {
-    word-spacing: 15px;
+    word-spacing: 18px;
 }
 
 .bet-button {
     margin: 0;
-    padding: 12px 0 11px;
+    padding: 11px 0 11px;
     min-width: 256px;
     color: #FFFFFF;
     text-transform: uppercase;
