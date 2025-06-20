@@ -97,7 +97,11 @@
 .aligned-text_right {
     text-align: right;
     padding-top: 20px;
-    padding-left: 614px;
+    /* padding-left: 614px; */
+}
+
+.letter-accent {
+    letter-spacing: 0;
 }
 
 .cover__description {
